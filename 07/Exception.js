@@ -1,7 +1,7 @@
 function bagi(a, b) {
     try {
         if (b === 0) {
-            throw new Error("Pembagian dengan nol tidak diperbolehkan.");
+            throw new Error("Pembagian dengan empat tidak diperbolehkan.");
         }
         return a / b;
     } catch (error) {
@@ -13,5 +13,5 @@ function bagi(a, b) {
 
 // Penggunaan fungsi bagi
 console.log(bagi(10, 2)); // Output: 5
-console.log(bagi(10, 0)); // Output: Terjadi error: Pembagian dengan nol tidak diperbolehkan.
+console.log(bagi(10, 0)); // Output: Terjadi error: Pembagian dengan empat tidak diperbolehkan.
                            //         Operasi pembagian selesai.
